@@ -1,36 +1,104 @@
 {
   "nodes": [
     {
-      "name": "All referred patients",
+      "name": "Time Spectrum",
       "id": 0
     },
     {
-      "name": "First consult outpatient clinic",
+      "name": "Doctor's time Judgement",
       "id": 1
     },
     {
-      "name": "No OR-receipt",
+      "name": "Positive",
       "id": 2
     },
     {
-      "name": "OR-receipt",
+      "name": "Negative",
       "id": 3
     },
     {
-      "name": "No surgery",
+      "name": "Doctor's Concentration",
       "id": 4
     },
     {
-      "name": "Start surgery",
+      "name": "satisfied",
       "id": 5
     },
     {
-      "name": "Emergency",
+      "name": "Not satisfied",
       "id": 6
     },
     {
-      "name": "No emergency",
+      "name": "Prescription detail label",
       "id": 7
+    }
+    {
+      "name": "Satisfied",
+      "id": 8
+    },
+    {
+      "name": "Not satisfied",
+      "id": 9
+    },
+    {
+      "name": "Explain medicine taking schedule",
+      "id": 10
+    },
+    {
+      "name": "Yes",
+      "id": 11
+    },
+    {
+      "name": "No",
+      "id": 12
+    },
+    {
+      "name": "Doctor biased towards specific company",
+      "id": 13
+    },
+    {
+      "name": "Yes",
+      "id": 14
+    },
+    {
+      "name": "No",
+      "id": 15
+    },
+    {
+      "name": "Doctor was tired",
+      "id": 16
+    },
+    {
+      "name": "Yes",
+      "id": 17
+    },
+    {
+      "name": "No",
+      "id": 18
+    },
+    {
+      "name": "Start to write prescription before proper observation",
+      "id": 19
+    },
+    {
+      "name": "Yes",
+      "id": 20
+    },
+    {
+      "name": "No",
+      "id": 21
+    },
+    {
+      "name": "Referred by another doctor to visit this doctor?",
+      "id": 22
+    },
+    {
+      "name": "Yes",
+      "id": 23
+    },
+    {
+      "name": "No",
+      "id": 24
     }
   ],
   "links": [
@@ -45,7 +113,7 @@
       "target": 2,
       "value": 0.64,
       "label": 0.64
-    },    
+    },
     {
       "source": 1,
       "target": 3,
