@@ -77,7 +77,7 @@
       "id": 18
     },
     {
-      "name": "Start to write prescription before proper observation",
+      "name": "Write prescription before proper observation",
       "id": 19
     },
     {
@@ -89,12 +89,107 @@
       "id": 21
     },
     {
-      "name": "Referred by another doctor to visit this doctor?",
+      "name": "Referred by another doctor",
       "id": 22
     },
     {
       "name": "Yes",
       "id": 23
+    },
+    {
+      "name": "No",
+      "id": 24
+    },
+    {
+      "name": "Doctor misbehave",
+      "id": 24
+    },
+    {
+      "name": "Yes",
+      "id": 24
+    },
+    {
+      "name": "Taking too much money",
+      "id": 24
+    },
+    {
+      "name": "Yes",
+      "id": 24
+    },
+    {
+      "name": "No",
+      "id": 24
+    },
+    {
+      "name": "2nd visit is high",
+      "id": 24
+    },
+    {
+      "name": "Yes",
+      "id": 24
+    },
+    {
+      "name": "No",
+      "id": 24
+    },
+    {
+      "name": "Often change doctor",
+      "id": 24
+    },
+    {
+      "name": "Yes",
+      "id": 24
+    },
+    {
+      "name": "No",
+      "id": 24
+    },
+    {
+      "name": "doctor's time to observe",
+      "id": 24
+    },
+    {
+      "name": "5 minutes",
+      "id": 24
+    },
+    {
+      "name": "10 minutes",
+      "id": 24
+    },
+    {
+      "name": "15 minutes",
+      "id": 24
+    },
+    {
+      "name": "different prescription, same diseases from different doctor",
+      "id": 24
+    },
+    {
+      "name": "Yes",
+      "id": 24
+    },
+    {
+      "name": "No",
+      "id": 24
+    },
+    {
+      "name": "Refer to go abroad",
+      "id": 24
+    },
+    {
+      "name": "Yes",
+      "id": 24
+    },
+    {
+      "name": "No",
+      "id": 24
+    },
+    {
+      "name": "Pay for the doctor but checked by assistant",
+      "id": 24
+    }    {
+      "name": "Yes",
+      "id": 24
     },
     {
       "name": "No",
