@@ -1,243 +1,189 @@
 {
   "nodes": [
     {
-      "name": "Time Spectrum",
+      "name": "9:00AM - 11:00AM",
       "id": 0
     },
     {
-      "name": "Doctor's time Judgement",
+      "name": "11:00AM - 1:00PM",
       "id": 1
     },
     {
-      "name": "Positive",
+      "name": "1:00PM - 3:00PM",
       "id": 2
     },
     {
-      "name": "Negative",
+      "name": "3:00PM - 5:00PM",
       "id": 3
     },
     {
-      "name": "Doctor's Concentration",
+      "name": "5:00PM - 7:00PM",
       "id": 4
     },
     {
-      "name": "satisfied",
+      "name": "7:00PM - 9:00PM",
       "id": 5
     },
     {
-      "name": "Not satisfied",
+      "name": "100% Satisfied",
       "id": 6
     },
     {
-      "name": "Prescription detail label",
+      "name": "90% Satisfied",
       "id": 7
     }
+    ,
     {
-      "name": "Satisfied",
+      "name": "80% Satisfied",
       "id": 8
-    },
+    }
+    ,
     {
-      "name": "Not satisfied",
+      "name": "70% Satisfied",
       "id": 9
-    },
+    }
+    ,
     {
-      "name": "Explain medicine taking schedule",
+      "name": "60% Satisfied",
       "id": 10
-    },
+    }
+    ,
     {
-      "name": "Yes",
+      "name": "50% Satisfied",
       "id": 11
-    },
+    }
+    ,
     {
-      "name": "No",
+      "name": "40% Satisfied",
       "id": 12
     },
     {
-      "name": "Doctor biased towards specific company",
+      "name": "30% Satisfied",
       "id": 13
     },
     {
-      "name": "Yes",
+      "name": "20% Satisfied",
       "id": 14
     },
     {
-      "name": "No",
+      "name": "10% Satisfied",
       "id": 15
     },
     {
-      "name": "Doctor was tired",
+      "name": "0% Satisfied",
       "id": 16
-    },
-    {
-      "name": "Yes",
-      "id": 17
-    },
-    {
-      "name": "No",
-      "id": 18
-    },
-    {
-      "name": "Write prescription before proper observation",
-      "id": 19
-    },
-    {
-      "name": "Yes",
-      "id": 20
-    },
-    {
-      "name": "No",
-      "id": 21
-    },
-    {
-      "name": "Referred by another doctor",
-      "id": 22
-    },
-    {
-      "name": "Yes",
-      "id": 23
-    },
-    {
-      "name": "No",
-      "id": 24
-    },
-    {
-      "name": "Doctor misbehave",
-      "id": 24
-    },
-    {
-      "name": "Yes",
-      "id": 24
-    },
-    {
-      "name": "Taking too much money",
-      "id": 24
-    },
-    {
-      "name": "Yes",
-      "id": 24
-    },
-    {
-      "name": "No",
-      "id": 24
-    },
-    {
-      "name": "2nd visit is high",
-      "id": 24
-    },
-    {
-      "name": "Yes",
-      "id": 24
-    },
-    {
-      "name": "No",
-      "id": 24
-    },
-    {
-      "name": "Often change doctor",
-      "id": 24
-    },
-    {
-      "name": "Yes",
-      "id": 24
-    },
-    {
-      "name": "No",
-      "id": 24
-    },
-    {
-      "name": "doctor's time to observe",
-      "id": 24
-    },
-    {
-      "name": "5 minutes",
-      "id": 24
-    },
-    {
-      "name": "10 minutes",
-      "id": 24
-    },
-    {
-      "name": "15 minutes",
-      "id": 24
-    },
-    {
-      "name": "different prescription, same diseases from different doctor",
-      "id": 24
-    },
-    {
-      "name": "Yes",
-      "id": 24
-    },
-    {
-      "name": "No",
-      "id": 24
-    },
-    {
-      "name": "Refer to go abroad",
-      "id": 24
-    },
-    {
-      "name": "Yes",
-      "id": 24
-    },
-    {
-      "name": "No",
-      "id": 24
-    },
-    {
-      "name": "Pay for the doctor but checked by assistant",
-      "id": 24
-    }    {
-      "name": "Yes",
-      "id": 24
-    },
-    {
-      "name": "No",
-      "id": 24
     }
+    
   ],
   "links": [
     {
       "source": 0,
+      "target": 6,
+      "value": 1,
+      "label": 0.1
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": 5,
+      "label": 0.1
+    },    
+    {
+      "source": 0,
+      "target": 8,
+      "value": 0.36,
+      "label": 0.1
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "value": 0.1188,
+      "label": 0.1
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "value": 0.2412,
+      "label": 0.2
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "value": 0.038592,
+      "label": 0.3
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "value": 0.20260799999999998,
+      "label": 0.1
+    }
+    ,
+    {
+      "source": 1,
+      "target": 6,
+      "value": 0.1,
+      "label": 0.1
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "value": 15,
+      "label": 0.5
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "value": 12,
+      "label": 0.4
+    },
+    {
+      "source": 2,
       "target": 1,
       "value": 1,
       "label": 1
     },
     {
-      "source": 1,
-      "target": 2,
-      "value": 0.64,
-      "label": 0.64
-    },
-    {
-      "source": 1,
-      "target": 3,
-      "value": 0.36,
-      "label": 0.36
+      "source": 3,
+      "target": 11,
+      "value": 0.4,
+      "label": 0.4
     },
     {
       "source": 3,
-      "target": 4,
-      "value": 0.1188,
-      "label": 0.33
+      "target": 13,
+      "value": 0.6,
+      "label": 0.6
     },
     {
-      "source": 3,
-      "target": 5,
-      "value": 0.2412,
-      "label": 0.67
+      "source": 4,
+      "target": 10,
+      "value": 0.5,
+      "label": 0.5
+    },
+    {
+      "source": 4,
+      "target": 12,
+      "value": 0.5,
+      "label": 0.5
     },
     {
       "source": 5,
-      "target": 6,
-      "value": 0.038592,
-      "label": 0.16
+      "target": 12,
+      "value": 0,
+      "label": 0
     },
     {
       "source": 5,
-      "target": 7,
-      "value": 0.20260799999999998,
-      "label": 0.84
+      "target": 11,
+      "value": 0.3,
+      "label": 0.3
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "value": 0.7,
+      "label": 0.7
     }
   ]
 }
